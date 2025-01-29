@@ -8,7 +8,7 @@ proto_dhcpv6_init_config() {
 	renew_handler=1
 
 	proto_config_add_string 'reqaddress:or("try","force","none")'
-	proto_config_add_string 'reqprefix:or("auto","no",range(0, 64))'
+	proto_config_add_string 'reqprefix:or("auto",ip6addr,"no",range(0, 64))'
 	proto_config_add_string clientid
 	proto_config_add_string 'reqopts:list(uinteger)'
 	proto_config_add_string 'defaultreqopts:bool'
