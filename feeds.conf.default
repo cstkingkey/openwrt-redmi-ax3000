@@ -1,6 +1,6 @@
-src-git packages https://git.openwrt.org/feed/packages.git;openwrt-23.05
+src-git packages https://git.openwrt.org/feed/packages.git
 src-git luci https://git.openwrt.org/project/luci.git;openwrt-23.05
 src-git routing https://git.openwrt.org/feed/routing.git;openwrt-23.05
 src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-23.05
-src-git helloworld https://github.com/fw876/helloworld^084f677511cf05894b08a64766b8455f9426bfcb
+src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
