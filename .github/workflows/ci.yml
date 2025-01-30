@@ -57,6 +57,7 @@ jobs:
             CONFIG_LUCI_LANG_zh-cn=y
             CONFIG_PACKAGE_luci-theme-argon=y
             CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+            CONFIG_PACKAGE_dnsmasq=n
           EOF
           make defconfig
 
